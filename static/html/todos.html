@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/todos.js" defer></script>
+    <link rel="stylesheet" href="../css/todos.css">
+    <title>To Do List</title>
+</head>
+<body>
+
+    <nav>
+        <div id="top-nav">
+            <h1 id="title">To Do List</h1>
+            <div id="filter-btns">
+                <button id="all-btn">All</button>
+                <button id="overdue-btn">Overdue</button>
+                <button id="in-prog-btn">In Progress</button>
+                <button id="done-btn">Done</button>
+            </div>
+        </div>
+        <div class="nav-buttons">
+            <button id="sign-out-btn">Sign Out</button>
+            <button id="delete-acc-btn">Delete Account</button>
+        </div>
+    </nav>
+    <div id="todo-list">
+        <div id="btns">            
+            <button id="sort-btn">Sort</button>
+            <button id="add-task-btn">+ Add Task</button>
+        </div>
+        <div class="todo-titles">
+            <h3></h3>
+            <h3>Name</h3>
+            <h3>Due Day</h3>
+            <h3>Time</h3>
+            <h3>Status</h3>
+            <h3></h3>
+        </div>
+        <div id="todo-items"></div>
+    </div>
+
+</body>
+</html>

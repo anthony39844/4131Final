@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+h3, p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-buttons button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50%;
+    width: 100%;
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 30px 0;
+    width: 100%;
+}
+
+.todo-titles {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr 0.4fr;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.todo-item {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr 0.4fr;
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.todo-item button {
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.todo-item input {
+    width: 100%;
+    height: 20px;
+}
+
+.todo-item h3, .todo-item p, .todo-item input, .todo-titles h3, .todo-titles p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+#filter-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#filter-btns button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50%;
+    width: 100%;
+}
+
+#add-task-btn, #sort-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/index.js" defer></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the To Do List</h1>
+        
+        <div class="btns">
+            <button id="sign-up-btn">Sign Up</button>
+            <button id="log-in-btn">Log In</button>
+        </div>
+
+        <div id="sign-up-div" class="form-container">
+            <h2>Sign Up</h2>
+            <form id="sign-up" method="POST">
+                <label for="sign-up-username">Username</label>
+                <input type="text" id="sign-up-username" name="username" required>
+
+                <label for="sign-up-password">Password</label>
+                <input type="password" id="sign-up-password" name="password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div id="log-in-div" class="form-container">
+            <h2>Log In</h2>
+            <form id="log-in" method="POST">
+                <label for="log-in-username">Username</label>
+                <input type="text" id="log-in-username" name="username" required>
+
+                <label for="log-in-password">Password</label>
+                <input type="password" id="log-in-password" name="password" required>
+
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        <p id="error"></p>
+    </div>
+</body>
+</html>
