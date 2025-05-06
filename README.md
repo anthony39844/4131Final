@@ -1,4 +1,4 @@
-###How to run
+##How to run
 
 SSH using this command, replacing user with whatever your username is 
 - ssh -L 3306:cse-mysql-classes-01.cse.umn.edu:3306 user@login02.cselabs.umn.edu
